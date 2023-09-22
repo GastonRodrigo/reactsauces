@@ -1,0 +1,28 @@
+.Header {
+    display: flex;
+    min-height: 100px;
+    position: sticky;
+    justify-content: space-between;
+    background-color: #FFE5D4;
+    align-items: center;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.Header .logomenu {
+    display: inline-flex;
+    height: 100px;
+}
+.Header .logomenu:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.Header nav li {
+    display: inline;
+}
+.Header nav li a {
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 600;
+    color: black;
+}

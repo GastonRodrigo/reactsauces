@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+.UserSection {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.CounterSection {
+  display: flex;
+}
