@@ -2,7 +2,7 @@
 import './App.css';
 import Header from './components/Header/Navbar';
 import ItemListContainer from './components/Items/ItemListContainer';
-
+import Box from "@mui/material/Box";
 
 function App() {
   return (
@@ -11,6 +11,16 @@ function App() {
     
       <Header/>
 
+      <Box
+          sx={{
+            flexGrow: 1,
+            display: "flex",
+            justifyContent: "center",
+            my: 2,
+          }}
+        >
+          
+          
       
       <ItemListContainer 
         name='Karnevil Felices Las Vacas'
@@ -31,7 +41,7 @@ function App() {
         price='$1500'
       />
       
-    
+      </Box>
     </>
   )
 }
