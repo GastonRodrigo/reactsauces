@@ -1,5 +1,4 @@
 import Badge from '@mui/material/Badge';
-// import Cart from '@mui/icons-material/ShoppingCart';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 const CartWidget = () => {

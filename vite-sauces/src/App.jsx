@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header/Navbar';
 import ItemListContainer from './components/Items/ItemListContainer';
 import Box from "@mui/material/Box";
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
       />
       
       </Box>
+      <Footer />
     </>
   )
 }

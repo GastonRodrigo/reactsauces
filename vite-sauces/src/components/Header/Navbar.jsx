@@ -14,7 +14,7 @@ import CartWidget from './CartWidget'
                 <li><a href="#">Productos</a></li>
                 <li><a href="#">Nosotros</a></li>
                 <li><a href="#">Contacto</a></li>
-                <li className='CartWidget'><CartWidget /></li>
+                <li className='CartWidget'><a href='#'><CartWidget /> </a></li>
             </ul>
             
         </nav>

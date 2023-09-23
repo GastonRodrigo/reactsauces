@@ -19,10 +19,17 @@
 .Header nav li {
     display: inline;
 }
-.Header nav li a {
+
+.menu-items li a {
+    color: #9a4a0d;
+    text-decoration: none;
+    display: inline;
     padding-right: 20px;
-    text-transform: uppercase;
-    font-size: larger;
     font-weight: 600;
-    color: black;
+    font-size: larger;
+
+}
+
+.menu-items li a:hover {
+color: #532807;
 }
