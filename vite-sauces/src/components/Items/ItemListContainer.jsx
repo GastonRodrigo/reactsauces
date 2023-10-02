@@ -11,7 +11,7 @@ const ItemListContainer = ({name, img, description, price}) => {
 
   // Función para agregar un item al carrito
   const addToCart = () => {
-    // Crea un nuevo objeto de item
+    // Crea un nuevo objeto de item 
     const newItem = {
       name: name,
       img: img,
