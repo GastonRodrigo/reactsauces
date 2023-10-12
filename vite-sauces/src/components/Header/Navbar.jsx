@@ -2,7 +2,7 @@ import './Header.css'
 import img from './lossaucessinfondo.png'
 import CartWidget from './CartWidget'
 
-    const Header = () => {
+    const NavBar = () => {
     return (
         <div className="Header">
             <img className='logomenu' src={img} alt='logo-ls' />
@@ -11,10 +11,10 @@ import CartWidget from './CartWidget'
         
             <ul className="menu-items">
 
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li className='CartWidget'><a href='#'><CartWidget /> </a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li className='CartWidget'><a href='/cart'><CartWidget /> </a></li>
             </ul>
             
         </nav>
@@ -22,6 +22,6 @@ import CartWidget from './CartWidget'
     )
     }
 
-export default Header
+export default NavBar
 
 
