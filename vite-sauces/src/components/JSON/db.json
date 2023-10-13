@@ -1,0 +1,145 @@
+{
+    "productos" : [
+      {
+        "id": 1,
+        "name": "Burganas",
+        "category": "Congelados",
+        "price": "$2500",
+        "img": "https://rickandmortyapi.com/api/location/1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Karnevil Felices Las Vacas",
+        "category": "Congelados",
+        "price": "$2350",
+        "img": "#"
+      },
+      {
+        "id": 3,
+        "name": "NOTCO",
+        "category": "Congelados",
+        "price": "$2550",
+        "img": "#"
+      },
+      
+      {
+        "id": 4,
+        "name": "Provolone Felices Las Vacas",
+        "category": "Procesados",
+        "price": "$1500",
+        "img": "#"
+      },
+      {
+        "id": 5,
+        "name": "Te Heredia Gengibre",
+        "category": "Te",
+        "price": "$1330",
+        "img": "#"
+      },
+      {
+        "id": 6,
+        "name": "Crakines",
+        "category": "Galletas",
+        "price": "$610",
+        "img": "#"
+      },
+      {
+        "id": 7,
+        "name": "Yogurt Quimya Arandanos",
+        "category": "Yogures",
+        "price": "$680",
+        "img": "#"
+      },
+      {
+        "id": 8,
+        "name": "Yogurt Quimya Pistacho",
+        "category": "Yogures",
+        "price": "$750",
+        "img": "#"
+      },
+      {
+        "id": 9,
+        "name": "",
+        "category": "",
+        "price": "",
+        "img": ""
+      },
+      {
+        "id": 10,
+        "name": "",
+        "category": "",
+        "price": "",
+        "img": ""
+      },
+      {
+        "id": 11,
+        "name": "",
+        "category": "",
+        "price": "",
+        "img": ""
+      },
+      {
+        "id": 12,
+        "name": "",
+        "category": "",
+        "price": "",
+        "img": ""
+      },
+      {
+        "id": 13,
+        "name": "",
+        "category": "",
+        "price": "",
+        "img": ""
+      },
+      {
+        "id": 14,
+        "name": "",
+        "category": "",
+        "price": "",
+        "img": ""
+      },
+      {
+        "id": 15,
+        "name": "",
+        "category": "",
+        "price": "",
+        "img": ""
+      },
+      {
+        "id": 16,
+        "name": "",
+        "category": "",
+        "price": "",
+        "img": ""
+      },
+      {
+        "id": 17,
+        "name": "",
+        "category": "",
+        "price": "",
+        "img": ""
+      },
+      {
+        "id": 18,
+        "name": "",
+        "category": "",
+        "price": "",
+        "img": ""
+      },
+      {
+        "id": 19,
+        "name": "",
+        "category": "",
+        "price": "",
+        "img": ""
+      },
+      {
+        "id": 20,
+        "name": "",
+        "category": "",
+        "price": "",
+        "img": ""
+      }
+    ]
+}
