@@ -6,6 +6,7 @@ function Home() {
   return (
     
     <>
+    <h2>Destacados de la semana</h2>
     <Box
           sx={{
             flexGrow: 1,
@@ -18,6 +19,7 @@ function Home() {
         >
           
           <Grid container spacing={0} justifyContent="center">
+      
       
       <ItemListContainer 
         name='Karnevil Felices Las Vacas'

@@ -1,8 +1,28 @@
+import ItemListContainer from "../components/Items/ItemListContainer";
+import Box from "@mui/material/Box";
+import { Grid } from "@mui/material";
 
-
-const Contact = () => {
+function Contact() {
   return (
-    <h1>Contact</h1>
+    
+    <>
+    <Box
+          sx={{
+            flexGrow: 1,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: '10px',
+            my: 2,
+          }}
+        >
+          
+        <Grid container spacing={0} justifyContent="center">
+
+    
+        </Grid>
+      </Box>
+      </> 
   )
 }
 

@@ -1,12 +1,13 @@
 .Header {
-    display: flex;
-    min-height: 100px;
+    display: absolute;
+    min-height: 10px;
     position: sticky;
     justify-content: space-between;
     background-color: #FFE5D4;
     align-items: center;
     padding: 10px;
     font-family: sans-serif;
+    width: 100%;
 }
 .Header .logomenu {
     display: inline-flex;
@@ -18,7 +19,22 @@
 }
 .Header nav li {
     display: inline;
+    width: 100%;
 }
+
+.submenu {
+    display: none;
+    width: 200px;
+    position: absolute;
+    left: 35%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  .submenu.open {
+    display: block;
+  }
+  
 
 .menu-items li a {
     color: #9a4a0d;

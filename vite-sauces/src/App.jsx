@@ -7,7 +7,7 @@ import Footer from './components/Footer/Footer';
 //PAGES
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import About from './pages/About';
+import Category from './pages/Category';
 import Cart from './pages/Cart'; 
 // SPA = Simple Page Application (REACT)
 
@@ -20,7 +20,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={ <Home /> } />
-        <Route path='/about' element={ <About /> } />
+        <Route path="/category/:category" element={<Category />} />
         <Route path='/contact' element={ <Contact /> } />
         <Route path='/cart' element={ <Cart /> } />
       </Routes>

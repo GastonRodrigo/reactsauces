@@ -6,20 +6,19 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import Box from "@mui/material/Box";
 
-const ItemListContainer = ({name, img, description, price}) => {
-  const [cart, setCart] = useState([]); // Estado del carrito
+const ItemListContainer = ({name, img, category, description, price}) => {
+  const [cart, setCart] = useState([]); 
 
-  // Función para agregar un item al carrito
+
   const addToCart = () => {
-    // Crea un nuevo objeto de item 
     const newItem = {
       name: name,
       img: img,
-      description: description,
+      category: category,
       price: price,
+      description : description,
     };
 
-    // Agrega el nuevo item al carrito
     setCart([...cart, newItem]);
   };
   return (
@@ -30,7 +29,6 @@ const ItemListContainer = ({name, img, description, price}) => {
             component="img"
             height="300"
             image={img}
-            alt="karnevil"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">

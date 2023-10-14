@@ -5,21 +5,24 @@
         "name": "Burganas",
         "category": "Congelados",
         "price": "$2500",
-        "img": "https://rickandmortyapi.com/api/location/1.jpg"
+        "img": "/src/components/Items/img/burganastomamte.png",
+        "description": "Queso apto vegano"
       },
       {
         "id": 2,
         "name": "Karnevil Felices Las Vacas",
         "category": "Congelados",
         "price": "$2350",
-        "img": "#"
+        "img": "/src/components/Items/img/karnevil.png",
+        "description": "A base de arvejas"
       },
       {
         "id": 3,
         "name": "NOTCO",
         "category": "Congelados",
         "price": "$2550",
-        "img": "#"
+        "img": "/src/components/Items/img/NOTCO.jpg",
+        "description": "A base de arvejas"
       },
       
       {
@@ -27,119 +30,104 @@
         "name": "Provolone Felices Las Vacas",
         "category": "Procesados",
         "price": "$1500",
-        "img": "#"
+        "img": "/src/components/Items/img/provolone.png",
+        "description": "Queso apto vegano"
       },
       {
         "id": 5,
         "name": "Te Heredia Gengibre",
         "category": "Te",
         "price": "$1330",
-        "img": "#"
+        "img": "/src/components/Items/img/heredia-gengibre.png",
+        "description": "Té organico"
       },
       {
         "id": 6,
         "name": "Crakines",
         "category": "Galletas",
         "price": "$610",
-        "img": "#"
+        "img": "/src/components/Items/img/crakines.jpeg",
+        "description": "De arroz"
       },
       {
         "id": 7,
         "name": "Yogurt Quimya Arandanos",
         "category": "Yogures",
         "price": "$680",
-        "img": "#"
+        "img": "/src/components/Items/img/quimya-arandanos.png",
+        "description": "A base de leche de coco"
       },
       {
         "id": 8,
         "name": "Yogurt Quimya Pistacho",
         "category": "Yogures",
         "price": "$750",
-        "img": "#"
+        "img": "/src/components/Items/img/quimya-pistacho.jpeg",
+        "description": "A base de leche de coco"
       },
       {
         "id": 9,
-        "name": "",
-        "category": "",
-        "price": "",
-        "img": ""
+        "name": "Legume Fideos",
+        "category": "Pastas",
+        "price": "$1400",
+        "img": "/src/components/Items/img/legume.webp",
+        "description": "Fideos a base de legumbres"
       },
       {
         "id": 10,
-        "name": "",
-        "category": "",
-        "price": "",
-        "img": ""
+        "name": "Soyarroz",
+        "category": "Pastas",
+        "price": "$1060",
+        "img": "/src/components/Items/img/soyarroz.png",
+        "description": "Fideos a base de arroz"
       },
       {
         "id": 11,
-        "name": "",
-        "category": "",
-        "price": "",
-        "img": ""
+        "name": "Tofu Soyana",
+        "category": "Procesados",
+        "price": "$1800",
+        "img": "/src/components/Items/img/tofu-soyana.png",
+        "description": "Tofu apto vegano"
       },
       {
         "id": 12,
-        "name": "",
-        "category": "",
-        "price": "",
-        "img": ""
+        "name": "Wakas",
+        "category": "Pastas",
+        "price": "$900",
+        "img": "/src/components/Items/img/wakas.png",
+        "description": "Apto Vegano, varios gustos"
       },
       {
         "id": 13,
-        "name": "",
-        "category": "",
-        "price": "",
-        "img": ""
+        "name": "Felices Las Vacas Frutilla",
+        "category": "Yogures",
+        "price": "$835",
+        "img": "/src/components/Items/img/flvshogurt.jpeg",
+        "description": "Apto vegano, con leche de Almendras"
       },
       {
         "id": 14,
-        "name": "",
-        "category": "",
-        "price": "",
-        "img": ""
+        "name": "Shivas",
+        "category": "Galletas",
+        "price": "$1035",
+        "img": "/src/components/Items/img/shivas.jpeg",
+        "description": "A base de fecula de maiz"
       },
       {
         "id": 15,
-        "name": "",
-        "category": "",
-        "price": "",
-        "img": ""
+        "name": "Smams Snacks Pizza",
+        "category": "Galletas",
+        "price": "$600",
+        "img": "/src/components/Items/img/smamspizza.webp",
+        "description": "Libre de Gluten"
       },
       {
         "id": 16,
-        "name": "",
-        "category": "",
-        "price": "",
-        "img": ""
-      },
-      {
-        "id": 17,
-        "name": "",
-        "category": "",
-        "price": "",
-        "img": ""
-      },
-      {
-        "id": 18,
-        "name": "",
-        "category": "",
-        "price": "",
-        "img": ""
-      },
-      {
-        "id": 19,
-        "name": "",
-        "category": "",
-        "price": "",
-        "img": ""
-      },
-      {
-        "id": 20,
-        "name": "",
-        "category": "",
-        "price": "",
-        "img": ""
+        "name": "Hummus Kyros",
+        "category": "Procesados",
+        "price": "$1500",
+        "img": "/src/components/Items/img/hummuskyros.jpeg",
+        "description": "Apto vegano"
       }
     ]
 }
