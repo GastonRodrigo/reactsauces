@@ -1,29 +1,34 @@
-import ItemListContainer from "../components/Items/ItemListContainer";
-import Box from "@mui/material/Box";
-import { Grid } from "@mui/material";
+import React from 'react';
 
-function Contact() {
+function Contacto() {
   return (
-    
-    <>
-    <Box
-          sx={{
-            flexGrow: 1,
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            padding: '10px',
-            my: 2,
-          }}
-        >
-          
-        <Grid container spacing={0} justifyContent="center">
+    <div>
+      
+      <p>¡Contáctanos para obtener más información!</p>
 
-    
-        </Grid>
-      </Box>
-      </> 
-  )
+      <form>
+        {/* Tu formulario de contacto aquí */}
+      </form>
+
+      <div>
+        <h2>Ubicación del Local</h2>
+        <p>Dirección: Pedro de Mendoza 512, San Isidro</p>
+        <p>Teléfono: (123) 456-7890</p>
+      </div>
+
+      <div>
+        <h2>Mapa</h2>
+        <iframe
+          src="https://storage.googleapis.com/maps-solutions-378m356msr/locator-plus/16oc/locator-plus.html"
+          width="1000px"
+          height="600"
+          style={{ border: '0' }}
+          loading="lazy"
+        />
+      </div>
+    </div>
+  );
 }
 
-export default Contact
+export default Contacto;
+

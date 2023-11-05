@@ -38,7 +38,8 @@ function NavBar() {
                 </li>
                 </ul>
             </li>
-            <li className='CartWidget'><a href='#'><CartWidget /> </a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li className='CartWidget'><a href='/cart'><CartWidget /> </a></li>
             </ul>
         </nav>
         </div>
