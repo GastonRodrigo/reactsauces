@@ -3,6 +3,8 @@ import axios from "axios";
 import { useParams, Link } from "react-router-dom";
 import ItemCount from "../components/ItemCount";
 import { CartContext } from "../context/CartContext";
+import { doc, getDoc } from 'firebase/firestore';
+import { db } from '../Firebase/config';
 
 const DetailPage = () => {
 
@@ -25,10 +27,15 @@ const DetailPage = () => {
   const [item, setItem] = useState({});
 
   useEffect(() => {
-    axios.get('/src/components/JSON/db.json').then((res) => {
-      const product = res.data.productos.find((product) => product.id === parseInt(id));
-      setItem(product || {});
-    });
+
+    const docRef = doc(db, 'productos', id);
+    getDoc(docRef)
+      .then((resp) => {
+        setItem(
+          {...resp.data(), id: resp.id}
+        );
+      })
+
   }, [id]);
 
   return (
