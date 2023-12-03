@@ -12,6 +12,7 @@ import Contact from './pages/Contact';
 import Category from './pages/Category';
 import Cart from './pages/Cart'; 
 import DetailPage from './pages/DetailPage';
+import FormularioCompra from './pages/FormularioCompra';
 // SPA = Simple Page Application (REACT)
 // CONTEXTO
 
@@ -35,6 +36,7 @@ function App() {
           <Route path="/detail/:id" element={<DetailPage />} />
           <Route path='/contact' element={ <Contact /> } />
           <Route path='/cart' element={ <Cart /> } />
+          <Route path='/finalizar-compra' element={ <FormularioCompra />} />
         </Routes>
         
 

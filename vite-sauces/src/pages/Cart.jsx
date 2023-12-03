@@ -1,8 +1,10 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import { CartContext } from '../context/CartContext';
 
 const Carrito = () => {
-  const { cart, precioTotal, vaciarCarrito } = useContext(CartContext);
+  const { cart, vaciarCarrito } = useContext(CartContext);
 
   const handleVaciar = () => {
     vaciarCarrito();
@@ -22,8 +24,11 @@ const Carrito = () => {
           </div>
         ))
       }
-    <h2>PRECIO TOTAL: ${precioTotal()}</h2>
+
     <button onClick={handleVaciar}>Vaciar</button>
+    <Link to='/finalizar-compra'>
+      <button>Finalizar Compra</button>
+    </Link>
     </div>
   )
 }
